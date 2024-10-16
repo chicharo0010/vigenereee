@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Vigenère</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cifrado Vigenère</h1>
+        <form id="cipherForm">
+            <label for="plainText">Palabra a Cifrar:</label>
+            <input type="text" id="plainText" required>
+            <label for="key">Clave:</label>
+            <input type="text" id="key" required>
+            <button type="submit">Cifrar</button>
+        </form>
+        <h2>Texto Cifrado:</h2>
+        <p id="encryptedText"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
